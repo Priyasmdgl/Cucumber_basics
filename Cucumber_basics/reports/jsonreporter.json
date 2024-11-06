@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "open chrome browser and launch google",
+        "description": "",
+        "id": "open-google;open-chrome-browser-and-launch-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2118981300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should open chrome browser",
+            "match": {
+              "location": "cucumberoptions.the_user_should_open_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 840141900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user gives the url to navigate",
+            "match": {
+              "location": "cucumberoptions.the_user_gives_the_url_to_navigate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 573346800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user selects tamil",
+            "match": {
+              "location": "cucumberoptions.the_user_selects_tamil()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117378200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should the page in tamil",
+            "match": {
+              "location": "cucumberoptions.the_user_should_the_page_in_tamil()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "open google",
+    "description": "",
+    "id": "open-google",
+    "keyword": "Feature",
+    "uri": "cucumberoptions.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@launchgoogle"
+      }
+    ]
+  }
+]

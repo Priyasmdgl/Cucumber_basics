@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Search for Dindigul",
+        "description": "",
+        "id": "to-test-for-google-search;search-for-dindigul",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3064235800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user navigates to Google.com",
+            "match": {
+              "location": "Opengoogle.user_navigates_to_Google_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150385200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters the search term \"Dindigul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dindigul",
+                  "offset": 33
+                }
+              ],
+              "location": "Opengoogle.the_user_enters_the_search_term(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200962100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on search button",
+            "match": {
+              "location": "Opengoogle.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166828300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user should get the results for Dindigul",
+            "match": {
+              "location": "Opengoogle.the_user_should_get_the_results_for_Dindigul()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test for Google Search",
+    "description": "",
+    "id": "to-test-for-google-search",
+    "keyword": "Feature",
+    "uri": "featurefile/Opengoogle.feature"
+  }
+]
